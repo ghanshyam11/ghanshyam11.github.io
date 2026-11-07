@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - FlickBrief</title>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text: #1e293b;
+      --text-muted: #64748b;
+      --primary: #4f46e5;
+      --border: #e2e8f0;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --card-bg: #1e293b;
+        --text: #f1f5f9;
+        --text-muted: #94a3b8;
+        --primary: #818cf8;
+        --border: #334155;
+      }
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.7;
+      color: var(--text);
+      background-color: var(--bg);
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+      border: 1px solid var(--border);
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 8px;
+      color: var(--primary);
+    }
+    .date {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      margin-bottom: 30px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    h2 {
+      font-size: 1.25rem;
+      margin-top: 28px;
+      margin-bottom: 12px;
+      color: var(--text);
+    }
+    p, ul {
+      margin-bottom: 16px;
+      color: var(--text);
+      font-size: 1rem;
+    }
+    ul {
+      padding-left: 24px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    a {
+      color: var(--primary);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    .contact-box {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px;
+      margin-top: 20px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Privacy Policy for FlickBrief</h1>
+    <div class="date">Last updated: November 6, 2026</div>
+
+    <p>
+      Welcome to <strong>FlickBrief</strong> ("we", "our", or "us"). We respect your privacy and are committed to protecting it. 
+      This Privacy Policy explains how our mobile application collects, uses, and safeguards your information when you use our service.
+    </p>
+
+    <h2>1. Information We Collect</h2>
+    <p>FlickBrief is designed to let you read news and take quizzes without requiring traditional account registration. We handle information in the following ways:</p>
+    <ul>
+      <li>
+        <strong>Guest Profile & Leaderboard Data:</strong> You can use FlickBrief as a guest. If you choose to join the public leaderboard, an anonymous identifier is generated via Firebase Anonymous Authentication. You may optionally enter a display nickname and sync your daily scores and medals.
+      </li>
+      <li>
+        <strong>Local Device Storage:</strong> Preferences such as chosen app theme, selected language (English/Hindi), offline news cache, current streak, and daily quiz progress are stored locally on your device using local storage/SQLite.
+      </li>
+      <li>
+        <strong>Device & Diagnostic Information:</strong> When connecting to our online services, basic technical information (e.g., operating system version, device model, IP address) may be processed automatically to ensure proper service delivery.
+      </li>
+    </ul>
+
+    <h2>2. Third-Party Services</h2>
+    <p>Our application integrates trusted third-party services that may collect information used to identify you in accordance with their own privacy policies:</p>
+    <ul>
+      <li>
+        <strong>Google Firebase:</strong> We use Firebase for Anonymous Authentication, Cloud Firestore (to retrieve daily news/quizzes and manage leaderboard scores), and Analytics. 
+        <br>
+        View: <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Privacy Policy</a>
+      </li>
+      <li>
+        <strong>Google AdMob (Mobile Ads):</strong> Our app integrates the Google Mobile Ads SDK. Google AdMob may use device advertising identifiers and cookies/SDK data to serve ads. Where required by law (such as in the EEA/UK), we use Google’s User Messaging Platform (UMP) to obtain user consent before serving personalized advertisements.
+        <br>
+        View: <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google Advertising & Privacy Policy</a>
+      </li>
+    </ul>
+
+    <h2>3. External Links & Original News Articles</h2>
+    <p>
+      FlickBrief provides summaries of daily news and allows you to view the full, original articles from external publishers via an in-app browser or external link. 
+      We do not control and are not responsible for the privacy practices, content, or tracking mechanisms of external publisher websites. We encourage you to review their respective privacy policies when visiting their sites.
+    </p>
+
+    <h2>4. How We Use Your Information</h2>
+    <p>We use the minimal information collected solely to:</p>
+    <ul>
+      <li>Deliver daily current affairs content and quizzes.</li>
+      <li>Maintain your quiz streaks, XP points, and optional leaderboard ranking.</li>
+      <li>Remember your theme and language preferences.</li>
+      <li>Monitor app stability, performance, and diagnose technical errors.</li>
+      <li>Comply with applicable legal requirements.</li>
+    </ul>
+
+    <h2>5. Data Retention & Deletion</h2>
+    <p>
+      Local data (such as streaks, cached stories, and settings) can be completely removed at any time by clearing the application storage or uninstalling the app from your device. 
+      Daily leaderboard records are tied only to your anonymous ID and are overwritten daily with your latest gameplay.
+    </p>
+
+    <h2>6. Children's Privacy</h2>
+    <p>
+      FlickBrief is intended for general audiences aged 13 and older. We do not knowingly collect personally identifiable information from children under 13. If you believe that a child has provided us with personal data, please contact us so we can take appropriate steps to remove it.
+    </p>
+
+    <h2>7. Changes to This Privacy Policy</h2>
+    <p>
+      We may update our Privacy Policy from time to time. Any changes will be posted on this page with an updated "Last updated" date. Continued use of the app after changes indicates your acceptance of the updated policy.
+    </p>
+
+    <h2>8. Contact Us</h2>
+    <p>If you have any questions or feedback regarding this Privacy Policy, please contact us at:</p>
+    <div class="contact-box">
+      <p><strong>Email:</strong> support@flickbrief.app</p>
+      <p><strong>Developer:</strong> FlickBrief Team</p>
+    </div>
+
+    <footer>
+      &copy; 2026 FlickBrief. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
