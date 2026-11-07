@@ -3,32 +3,52 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Swipe Quiz — practise English, Hindi, mathematics, and general knowledge through level-based quizzes.">
-  <title>Swipe Quiz</title>
+  <meta name="description" content="Explore apps and projects by Ghanshyam, including Swipe Quiz for English, Hindi, mathematics, and general knowledge practice.">
+  <title>GS | Apps &amp; Projects</title>
   <style>
     :root { color-scheme: light; font-family: system-ui, sans-serif; color: #18324a; background: #f4f8fc; }
-    body { max-width: 760px; margin: 0 auto; padding: 48px 20px; line-height: 1.7; }
+    body { max-width: 1000px; margin: 0 auto; padding: 48px 20px; line-height: 1.7; }
     main { background: white; padding: clamp(24px, 6vw, 48px); border-radius: 20px; box-shadow: 0 12px 40px #1028400d; }
     h1 { margin-top: 0; color: #075bb5; font-size: clamp(2rem, 6vw, 3rem); line-height: 1.2; }
     h2 { margin-top: 28px; font-size: 1.25rem; color: #102840; }
     a { color: #075bb5; text-underline-offset: 4px; overflow-wrap: anywhere; }
     a:focus-visible { outline: 3px solid #075bb5; outline-offset: 5px; }
     footer { margin-top: 32px; padding-top: 20px; border-top: 1px solid #e2eaf2; }
+    .eyebrow { font-weight: 600; color: #526577; }
+    .apps { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 24px; }
+    article { padding: 24px; border: 1px solid #dce7f2; border-radius: 16px; background: #f8fbff; }
+    article h3 { margin-top: 0; color: #102840; font-size: 1.5rem; }
+    .links { display: flex; flex-wrap: wrap; gap: 12px 24px; }
   </style>
 </head>
 <body>
   <main>
-    <h1>Swipe Quiz</h1>
-    <p>Build your knowledge, one quiz at a time.</p>
-    <p>Practise English, Hindi, mathematics, and general knowledge with interactive, level-based quizzes.</p>
-    <h2>Learn as you play</h2>
-    <ul>
-      <li>Choose a subject and work through quiz levels.</li>
-      <li>Review answers after each completed level, whether you pass or fail.</li>
-      <li>Learn from your mistakes and try again.</li>
-    </ul>
+    <header>
+      <p class="eyebrow">Apps &amp; projects by GS</p>
+      <h1>A place to explore my apps.</h1>
+      <p>Find app details, learning tools, and privacy information in one place.</p>
+    </header>
+    <section aria-labelledby="apps-heading">
+      <h2 id="apps-heading">Explore the apps</h2>
+      <div class="apps">
+        <!-- Add another article here for each future app. -->
+        <article aria-labelledby="swipe-quiz-heading">
+          <h3 id="swipe-quiz-heading">Swipe Quiz</h3>
+          <p>Build your knowledge, one quiz at a time. Practise English, Hindi, mathematics, and general knowledge with interactive, level-based quizzes.</p>
+          <ul>
+            <li>Choose a subject and work through quiz levels.</li>
+            <li>Review answers after each completed level, whether you pass or fail.</li>
+            <li>Learn from your mistakes and try again.</li>
+          </ul>
+          <div class="links">
+            <a href="https://ghanshyam11.github.io/app1/">Explore Swipe Quiz</a>
+            <a href="https://ghanshyam11.github.io/app1/privacy-policy.html" aria-label="Privacy policy for Swipe Quiz">Privacy Policy</a>
+          </div>
+        </article>
+      </div>
+    </section>
     <footer>
-      <a href="https://ghanshyam11.github.io/smart-utility/privacy-policy.html">Privacy Policy</a>
+      <p>GS · Apps &amp; projects</p>
     </footer>
   </main>
 </body>
